@@ -3,7 +3,7 @@ import java.awt.*;
 
 public class Purchase {
   private String itemName;
-  private int unitsPurchased;
+  public int unitsPurchased;
   private double pricePerUnit;
   
   public Purchase() {
@@ -28,7 +28,7 @@ public class Purchase {
     return this.itemName;
   }
 
-  public int getUnitsPurchased() {
+  public int unitsPurchased() {
     return this.unitsPurchased;
   }
 // end accessors
